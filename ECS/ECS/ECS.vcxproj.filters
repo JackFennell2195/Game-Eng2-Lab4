@@ -44,5 +44,8 @@
     <ClInclude Include="AISystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HealthSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

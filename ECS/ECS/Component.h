@@ -1,7 +1,10 @@
+#pragma once
 class Component 
 {
 public:
-	virtual void Componet() { }
+	Component() { };
+	~Component() { };
 
+private:
 
 };

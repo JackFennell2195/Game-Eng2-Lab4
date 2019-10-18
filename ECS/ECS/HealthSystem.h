@@ -2,17 +2,17 @@
 #include <iostream>
 #include "Entity.h"
 
-class RenderSystem
+class HealthSystem
 {
 	std::vector<Entity> entities;
 
 public:
 	void addEntity(Entity e) { }
-	void update() 
+	void update()
 	{
-		std::cout << "RenderSystem Update" << std::endl;
+		std::cout << "HealthSystem Update" << std::endl;
 		/* Loop through Entities with */
-		/* RenderComponents and Update */
+		/* HealthComponents and Update */
 		/* TBI */
 	}
 };

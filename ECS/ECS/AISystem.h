@@ -8,7 +8,11 @@ class AISystem
 
 public:
 	void addEntity(Entity e) { }
-	void update() {
+	void update() 
+	{
 		std::cout << "AISystem Update" << std::endl;
+		/* Loop through Entities with */
+		/* AIComponents and Update */
+		/* TBI */
 	}
 };

@@ -8,7 +8,11 @@ class ControlSystem
 
 public:
 	void addEntity(Entity e) { }
-	void update() {
+	void update() 
+	{
 		std::cout << "ControlSystem Update" << std::endl;
+		/* Loop through Entities with */
+		/* ControlComponents and Update */
+		/* TBI */
 	}
 };
